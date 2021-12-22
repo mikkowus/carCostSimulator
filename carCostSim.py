@@ -8,6 +8,7 @@ car cost simulator1
 """
 
 #this is edit 2
+#this is edit 3
 
 dayLifeCount = 0 #how many days the car has been alive
 milesLifeCount = 0 #how many miles left on the car
