@@ -7,6 +7,8 @@ Created on Wed Oct 27 02:00:06 2021
 car cost simulator1
 """
 
+#this is edit 2
+
 dayLifeCount = 0 #how many days the car has been alive
 milesLifeCount = 0 #how many miles left on the car
 milesWhenJunked = 250000 #projected miles the car will last
@@ -39,29 +41,29 @@ mpgC2 = 30
 
 #this loop is designed to loop once per day and you need to ma
 while dayLifeCount < daysWhenJunked  and milesLifeCount < milesWhenJunked :
-    
-    
+
+
     print(dayLifeCount)
     print(dayOfMonthCounter)
-    
+
     if dayOfMonthCounter == 15:
         bankAccountC2 = bankAccountC2 - monthlyPaymentC2
-    
+
     if dayOfWeekCounter == 6 :
-        bankAccountC1 += 700 
-        bankAccountC2 += 700 
-    
-        
+        bankAccountC1 += 700
+        bankAccountC2 += 700
+
+
     ############################################################################
     #milage updater
     milesLifeCount += averageMilesPerDay#this will go to milesWhenJunked(250,000) if nothing else stops it
-     
+
     #calendar updaters
     dayLifeCount += 1 #this will go to 7300 if nothing stops it
     dayOfWeekCounter += 1
     if dayOfWeekCounter > 7:
         dayOfWeekCounter = 1
-    
+
     #update day of month counter
     dayOfMonthCounter += 1
     if dayOfMonthCounter > 30:
@@ -71,7 +73,3 @@ while dayLifeCount < daysWhenJunked  and milesLifeCount < milesWhenJunked :
 #final results
 print(bankAccountC1)
 print(bankAccountC2)
-        
-    
-    
-    
