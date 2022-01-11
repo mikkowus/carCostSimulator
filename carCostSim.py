@@ -5,7 +5,8 @@ Created on Wed Oct 27 02:00:06 2021
 @author: mikko
 
 car cost simulator1
-Thi is an edit
+This is an edit
+This is another edit
 """
 
 #this is edit 2
